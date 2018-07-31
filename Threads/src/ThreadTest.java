@@ -5,9 +5,15 @@ public class ThreadTest {
     new ThreadOne("first").start();
     Thread thread2 = new ThreadOne("second");
     thread2.start();
-    thread2.interrupt();
+    //thread2.interrupt();
     new ThreadOne("third").start();
   }
+
+  private static void raceCondition() {
+    StringBuilder stringBuilder = new StringBuilder();
+
+  }
+
 
 }
 
