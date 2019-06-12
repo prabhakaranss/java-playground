@@ -1,3 +1,5 @@
+package test;
+
 import java.util.Date;
 
 public class Solution {
@@ -8,18 +10,25 @@ public class Solution {
   }
 
 
-  protected static class StaticClass  {
+  public static class StaticClass  {
 
       public static String getTime() {
           return new Date().toString();
       }
   }
 
-    protected class StaticClassTwo {
+    public class ClassTwo {
 
       public  String getTime() {
-          return "two"+new Date().toString();
+          return "two:"+new Date().toString();
       }
     }
 
+}
+
+class AnotherClass {
+
+    public  void print() {
+        System.out.println("Another class in a file");
+    }
 }
