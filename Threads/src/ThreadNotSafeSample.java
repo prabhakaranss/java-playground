@@ -4,7 +4,7 @@ public class ThreadNotSafeSample {
 
 class addExpenseThread implements Runnable {
 
-  Integer currentExpense;String
+  Integer currentExpense;
 
   public addExpenseThread(Integer currentExpense) {
     this.currentExpense = currentExpense;
