@@ -1,6 +1,5 @@
 package runner;
 
-import test.AnotherClass;
 import test.Solution;
 
 public class Test {
